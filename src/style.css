@@ -4,6 +4,6 @@
 
 .wrapper {
   max-inline-size: 1125px;
-  margin: 0 auto;
-  padding-inline: 5px;
+  margin: auto;
+  padding-inline: 2em;
 }
