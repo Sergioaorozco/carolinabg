@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper pt-5 pb-4 border-t border-t-[var(--baseColor)]">
+  <div class="wrapper border-t border-t-[var(--baseColor)] pt-5 pb-4">
     <footer class="flex justify-between items-center">
       <a href="#" class="underline text-[var(--DarkText)]">Recursos Diseño</a>
       <figure class="flex gap-x-2">
