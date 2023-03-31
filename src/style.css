@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --baseColor: rgba(243, 214, 209, 0.95);
+  --baseDarkColor: rgba(240, 151, 135, 0.85);
+  --DarkSoftText: rgb(151, 95, 85);
+  --DarkText: rgb(94, 72, 69);
+}
+
 .wrapper {
-  max-inline-size: 1300px;
+  max-inline-size: 1366px;
   margin: auto;
   padding-inline: 2em;
 }
 
-body { font-family: 'Playfair Display', serif; }
+body { 
+  font-family: 'Playfair Display', serif;
+  background: url('/background/mainbackground2.jpg');
+}
