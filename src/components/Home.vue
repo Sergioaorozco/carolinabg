@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col justify-between h-screen">
       <mainNav/>
-      <section class="bg-transparent mt-5 lg:mt-8">
+      <section class="bg-transparent mt-5 lg:mt-8 mb-5">
         <div class="wrapper gap-3 flex justify-between flex-col-reverse lg:flex-row items-center">
           <article class="flex flex-col lg:w-5/12 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <p class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y project manager.</p>
-            <a href="#" class="mt-5 border-2 border-[var(--baseDarkColor)] rounded-xl px-4 py-2 font-sans font-semibold w-1/2 text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Portafolio</a>
+            <a href="#" class="mt-5 border-2 border-[var(--baseDarkColor)] rounded-xl px-4 py-2 font-sans font-semibold lg:w-1/2 text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Portafolio</a>
           </article>
           <figure class="relative" v-motion-slide-right>
             <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
