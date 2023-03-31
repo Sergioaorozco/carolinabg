@@ -21,7 +21,7 @@ export default {
         <!-- <a class="py-2 px-5 rounded-full border border-[var(--baseDarkColor)] hover:bg-[var(--baseDarkColor)] hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Descargar HV</a> -->
       </div>
     </nav>
-    <section v-if="showMenu" class="fixed top-0 bottom-0 right-0 left-0 z-20">
+    <section v-if="showMenu" class="fixed top-0 bottom-0 right-0 left-0 z-20 serif">
       <!-- ModalMenu -->
       <aside class="bg-white h-fit absolute top-0 bottom-0 right-0 left-0 m-3 rounded-lg z-20" v-motion-slide-top>
         <div class="wrapper relative w-full flex items-center justify-center h-full">
@@ -31,7 +31,7 @@ export default {
           <div class="flex flex-col lg:flex-row w-screen lg:justify-between h-full">
             <a href="#" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Blog</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a href="#" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Portfolio</a>
+            <a href="#" target="_blank" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Portafolio</a>
             <div class="lg:border-r border-b border-slate-100"></div>
             <a href="#" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
           </div>

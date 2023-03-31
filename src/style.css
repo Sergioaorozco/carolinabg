@@ -11,11 +11,11 @@
 
 .wrapper {
   max-inline-size: 1366px;
+  width: -webkit-fill-available;
   margin: auto;
   padding-inline: 2em;
 }
 
-body { 
-  font-family: 'Playfair Display', serif;
-  background-image: url('/background/mainbackground.webp');
-}
+body { background-image: url('/background/mainbackground.webp'); }
+.serif { font-family: 'Playfair Display', serif; }
+.write { font-family: 'Edu NSW ACT Foundation', cursive; }
