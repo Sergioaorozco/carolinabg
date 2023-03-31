@@ -1,13 +1,21 @@
 <template>
   <div>
-    <!-- <main class="bg-black"> -->
       <mainNav/>
-      <section class="bg-transparent">
-        <div class="wrapper h-96 py-10">
-          <p class="text-3xl lg:text-7xl text-[var(--DarkText)] font-semibold" v-motion-slide-right>Carolina Buitrago</p>
+      <section class="bg-transparent mt-5 lg:mt-8">
+        <div class="wrapper gap-3 flex justify-between flex-col-reverse lg:flex-row">
+          <div class="flex flex-col lg:w-1/3">
+            <p class="text-3xl lg:text-5xl text-[var(--DarkText)] font-semibold mt-2">Hola,</p>
+            <p class="text-3xl lg:text-3xl text-[var(--DarkText)] font-semibold mt-2">soy Carolina Buitrago González, diseñadora de interiores y project manager.</p>
+          </div>
+          <figure class="relative" v-motion-slide-right>
+            <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
+            <div class="flex place-items-center justify-center absolute right-0 bottom-5">
+              <img class="role" width="100" height="100" src="/icons/spinText.svg" alt="Roles de Carolina Buitrago">
+              <img width="80" height="80" class="absolute p-2" src="/icons/isotipo.svg" alt="Isotipo de Carolina Buitrago">
+            </div>
+          </figure>
         </div>
       </section>
-    <!-- </main> -->
   </div>
   
 </template>
@@ -36,4 +44,13 @@ export default {
   opacity: 0;
   transform: translateY(20px);
 }
+
+/* ENDLESS ROTATE */
+.role{
+  animation: rotate 15s linear infinite; 
+}
+@keyframes rotate{
+  to{ transform: rotate(360deg); }
+}
+
 </style>

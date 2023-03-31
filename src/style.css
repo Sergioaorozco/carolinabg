@@ -17,5 +17,5 @@
 
 body { 
   font-family: 'Playfair Display', serif;
-  background: url('/background/mainbackground2.jpg');
+  background-image: url('/background/mainbackground.webp');
 }
