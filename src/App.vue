@@ -4,7 +4,9 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-<Home/>
+  <div>
+    <Home/>
+  </div>
 </template>
 
 <style scoped>

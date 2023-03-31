@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 .wrapper {
-  max-inline-size: 1125px;
+  max-inline-size: 1300px;
   margin: auto;
   padding-inline: 2em;
 }
+
+body { font-family: 'Playfair Display', serif; }
