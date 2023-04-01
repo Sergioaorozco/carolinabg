@@ -21,8 +21,8 @@ export default {
     </nav>
     <section v-if="showMenu" class="fixed top-0 bottom-0 right-0 left-0 z-20 serif">
       <!-- ModalMenu -->
-      <aside class="fullwidth h-fit absolute top-0 bottom-0 right-0 left-0 m-3 z-20" v-motion-slide-top>
-        <div class="bg-white rounded-lg wrapper relative w-full flex items-center justify-center h-full">
+      <aside class="h-fit absolute top-0 bottom-0 right-0 left-0 m-3 z-20" v-motion-slide-top>
+        <div class="fullwidth bg-white rounded-lg relative w-full flex items-center justify-center h-fit">
             <a class="hover:bg-slate-100 bg-slate-50 rounded-full py-2 px-2 transition-all duration-200 fixed top-6 right-6" href="#" @click="showMenu = false">
               <img src="/icons/close.svg" width="30" height="30" alt="icono de menu">
             </a>
