@@ -14,7 +14,7 @@ export default {
         <img src="/icons/CaroWeb.svg" width="120" height="57.92" alt="logo menu caro">
       </figure>
       <div class="flex gap-4 items-center">
-        <a href="#" @click="showMenu = true" class="hover:bg-rose-50 rounded-full py-2 px-2 transition-all duration-200">
+        <a href="#" @click="showMenu = true" class="hover:bg-[var(--baseColor)] rounded-full py-2 px-2 transition-all duration-200">
           <img src="/icons/menu.svg" width="30" height="30" alt="icono de menu">
         </a>
       </div>
@@ -29,7 +29,7 @@ export default {
           <div class="flex flex-col lg:flex-row w-screen lg:justify-between h-full">
             <a href="#" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Blog</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a href="#" target="_blank" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Portafolio</a>
+            <a href="#" target="_blank" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Contacto</a>
             <div class="lg:border-r border-b border-slate-100"></div>
             <a href="#" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
           </div>
