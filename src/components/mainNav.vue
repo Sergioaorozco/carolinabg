@@ -17,13 +17,11 @@ export default {
         <a href="#" @click="showMenu = true" class="hover:bg-rose-50 rounded-full py-2 px-2 transition-all duration-200">
           <img src="/icons/menu.svg" width="30" height="30" alt="icono de menu">
         </a>
-        <!-- <a href="#" class="hover:underline" target="_blank" rel="noopener noreferrer">Blog</a> -->
-        <!-- <a class="py-2 px-5 rounded-full border border-[var(--baseDarkColor)] hover:bg-[var(--baseDarkColor)] hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Descargar HV</a> -->
       </div>
     </nav>
     <section v-if="showMenu" class="fixed top-0 bottom-0 right-0 left-0 z-20 serif">
       <!-- ModalMenu -->
-      <aside class="bg-white h-fit absolute top-0 bottom-0 right-0 left-0 m-3 rounded-lg z-20" v-motion-slide-top>
+      <aside class="bg-white fullwidth h-fit absolute top-0 bottom-0 right-0 left-0 m-3 rounded-lg z-20" v-motion-slide-top>
         <div class="wrapper relative w-full flex items-center justify-center h-full">
             <a class="hover:bg-slate-100 bg-slate-50 rounded-full py-2 px-2 transition-all duration-200 fixed top-6 right-6" href="#" @click="showMenu = false">
               <img src="/icons/close.svg" width="30" height="30" alt="icono de menu">
