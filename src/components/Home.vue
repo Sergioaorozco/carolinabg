@@ -6,7 +6,7 @@
           <article class="flex flex-col lg:w-5/12 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <p class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y project manager.</p>
-            <a href="#" class="mt-5 border-2 border-[var(--baseDarkColor)] rounded-xl px-4 py-2 font-sans font-semibold lg:w-1/2 text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Curriculum</a>
+            <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="mt-5 border-2 border-[var(--baseDarkColor)] rounded-xl px-4 py-2 font-sans font-semibold lg:w-1/2 text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Curriculum</a>
           </article>
           <figure class="relative" v-motion-slide-right>
             <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
