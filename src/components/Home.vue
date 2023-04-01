@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col justify-between h-screen fullwidth">
+    <div>
       <mainNav/>
       <section class="bg-transparent mt-5 lg:mt-8 mb-5">
         <div class="wrapper gap-3 flex justify-between flex-col-reverse lg:flex-row items-center">
@@ -17,6 +18,7 @@
           </figure>
         </div>
       </section>
+    </div>
       <mainFooter/>
   </div>
 </template>
