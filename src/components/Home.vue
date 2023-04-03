@@ -4,7 +4,7 @@
       <mainNav/>
       <section class="bg-transparent mt-5 lg:mt-8 mb-5">
         <div class="wrapper gap-3 flex justify-between flex-col-reverse lg:flex-row items-center">
-          <article class="flex flex-col md:w-1/2 lg:w-5/12 write">
+          <article class="flex flex-col md:w-1/2 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <p class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y project manager.</p>
             <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="mt-5 border-2 border-[var(--baseDarkColor)] rounded-xl px-4 py-2 font-sans font-semibold lg:w-1/2 text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Curriculum</a>
