@@ -20,6 +20,10 @@
   width: -moz-available;          /* WebKit-based browsers will ignore this. */
   width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 }
-body { background-image: url('/background/mainbackground.webp'); }
+body {
+   background-image: url('/background/mainbackground.webp');
+   background-repeat: repeat;
+   background-size: cover;
+}
 .serif { font-family: 'Playfair Display', serif; }
 .write { font-family: 'Edu NSW ACT Foundation', cursive; }
