@@ -14,7 +14,7 @@ export default {
         <img src="/icons/CaroWeb.svg" width="120" height="57.92" alt="logo menu caro">
       </figure>
       <div class="flex gap-4 items-center">
-        <a href="#" @click="showMenu = true" class="hover:bg-[var(--baseColor)] rounded-full py-2 px-2 transition-all duration-200">
+        <a @click="showMenu = true" class="hover:bg-[var(--baseColor)] rounded-full py-2 px-2 transition-all duration-200">
           <img src="/icons/menu.svg" width="30" height="30" alt="icono de menu">
         </a>
       </div>
