@@ -7,7 +7,7 @@
           <article class="flex flex-col md:w-1/2 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y Gerente de Proyectos.</h1>
-            <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="mt-5 border border-[var(--baseDarkColor)] w-fit rounded-xl px-4 py-2 font-sans font-thin text-[var(--DarkText)] text-2xl descarga hover:bg-[var(--baseDarkColor)] transition-all duration-300">Descargar Curriculum</a>
+            <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/25 mt-5 border border-[var(--baseDarkColor)] w-fit rounded-xl px-4 py-2 font-sans font-thin text-[var(--DarkText)] text-xl hover:bg-[var(--baseDarkColor)] transition-all duration-300 descarga">Descargar Curriculum</a>
           </article>
           <figure class="relative" v-motion-slide-bottom>
             <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
@@ -50,10 +50,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .descarga::before {
-  content: '';
-  background: url('/icons/dowloa.svg');
-  background-size: cover;
-  display: block;
+  content: "";
+    background: url("/icons/download.svg");
+    background-size: cover;
+    width: 1.5em;
+    height: 1.5em;
+    color: var(--baseDarkColor);
+    display: inline-block;
 }
 
 .v--vtt-fade {
