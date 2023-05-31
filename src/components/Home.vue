@@ -7,7 +7,7 @@
           <article class="flex flex-col md:w-1/2 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y Gerente de Proyectos.</h1>
-            <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/25 mt-5 border border-[var(--baseDarkColor)] w-fit rounded-xl px-4 py-2 font-sans font-light text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-all duration-300 descarga">Descargar Curriculum</a>
+            <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/25 mt-5 border border-[var(--baseDarkColor)] lg:w-fit w-full rounded-xl px-4 py-2 font-sans font-light text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-all duration-300 descarga">Descargar Curriculum</a>
           </article>
           <figure class="relative" v-motion-slide-bottom>
             <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
@@ -22,7 +22,7 @@
       <section class="wrapper w-fit">
         <h2 class="mb-3 text-[var(--DarkText)] write text-3xl">Herramientas</h2>
         <ul class="grid grid-cols-2 lg:flex lg:flex-row items-center justify-evenly lg:h-32 lg:border lg:border-[var(--baseDarkColor)] bg-white/25 backdrop-blur-xl rounded-xl toolSection">
-          <li class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 hover:rounded-l-lg transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
+          <li class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
           <li class="py-5 rounded-tr-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/rhino.svg" alt="logo herramientas Rhinoceros"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
