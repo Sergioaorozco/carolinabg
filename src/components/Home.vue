@@ -22,13 +22,13 @@
       <section class="wrapper w-fit">
         <h2 class="mb-3 text-[var(--DarkText)] write text-3xl">Herramientas</h2>
         <ul class="grid grid-cols-2 lg:flex lg:flex-row items-center justify-evenly lg:h-32 lg:border lg:border-[var(--baseDarkColor)] bg-white/25 backdrop-blur-xl rounded-xl toolSection">
-          <li class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
+          <li v-tooltip.top="'Notion'"  class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
-          <li class="py-5 rounded-tr-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/rhino.svg" alt="logo herramientas Rhinoceros"></li>
+          <li v-tooltip.top="'Rhinoceros'"  class="py-5 rounded-tr-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/rhino.svg" alt="logo herramientas Rhinoceros"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
-          <li class="py-5 rounded-bl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="h-16" height="65" src="/icons/vray.svg" alt="logo herramientas Vray"></li>
+          <li v-tooltip.top="'V-ray'"  class="py-5 rounded-bl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="h-16" height="65" src="/icons/vray.svg" alt="logo herramientas Vray"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
-          <li class="py-5 rounded-br-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="h-16" height="65" src="/icons/Autocad.svg" alt="logo herramientas Autocad"></li>
+          <li v-tooltip.top="'Autocad'"  class="py-5 rounded-br-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="h-16" height="65" src="/icons/Autocad.svg" alt="logo herramientas Autocad"></li>
         </ul>
       </section>
     </div>
