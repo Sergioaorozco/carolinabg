@@ -20,7 +20,7 @@
         </div>
       </main>
       <!-- Herramientas -->
-      <section class="wrapper w-fit">
+      <section class="wrapper w-fit mb-5">
         <h2 class="mb-3 text-[var(--DarkText)] write text-3xl">Herramientas</h2>
         <ul class="grid grid-cols-2 lg:flex lg:flex-row items-center justify-evenly lg:h-32 lg:border lg:border-[var(--baseDarkColor)] bg-white/25 backdrop-blur-xl rounded-xl toolSection">
           <li v-tooltip.top="'Notion'"  class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
@@ -32,6 +32,17 @@
           <li v-tooltip.top="'Autocad'"  class="py-5 rounded-br-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="h-16" height="65" src="/icons/Autocad.svg" alt="logo herramientas Autocad"></li>
         </ul>
       </section>
+
+      <!-- Sobre Mi -->
+      <section class="wrapper w-fit pt-10 text-[var(--DarkText)] ">
+        <h2 class="mb-3 write text-3xl">Sobre Mí</h2>
+        <article class="text-lg">
+          <p>Profesional en diseño industrial con experiencia en diseño de espacios comerciales, domésticos y hotelería.</p>
+          <p>Experiencia como gerente de proyectos de arquitectura interior.</p>
+          <p>Me interesa crear experiencias con una mirada sensible enfocada en las personas y su entorno.</p>
+        </article>
+      </section>
+
     </div>
       <mainFooter/>
   </div>
