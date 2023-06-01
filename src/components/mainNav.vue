@@ -29,7 +29,7 @@ export default {
           <div class="flex flex-col lg:flex-row w-screen lg:justify-between h-full">
             <a target="_blank" href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/7551/Los%20objetos%20condicionantes%20el%20uso%20re-adaptativo.pdf?sequence=1&isAllowed=y" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Publicaciones</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" target="_blank" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Contacto</a>
+            <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Contacto</a>
             <div class="lg:border-r border-b border-slate-100"></div>
             <a target="_blank" href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
           </div>

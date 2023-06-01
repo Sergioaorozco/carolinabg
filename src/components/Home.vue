@@ -7,6 +7,7 @@
           <article class="flex flex-col md:w-1/2 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
             <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y Gerente de Proyectos.</h1>
+            <h2 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Actual: <span class="font-semibold"><a href="https://wynwood-house.com/" class="underline" target="_blank" rel="noopener noreferrer">Wynwood House</a></span></h2>
             <a href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/25 mt-5 border border-[var(--baseDarkColor)] lg:w-fit w-full rounded-xl px-4 py-2 font-sans font-light text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-all duration-300 descarga">Descargar Curriculum</a>
           </article>
           <figure class="relative" v-motion-slide-bottom>
