@@ -31,7 +31,7 @@ export default {
             <div class="lg:border-r border-b border-slate-100"></div>
             <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Contacto</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a target="_blank" href="https://drive.google.com/file/d/1JRPRcfbrRaAP7UneIr63g9tAwpzuKQzl/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
+            <a target="_blank" href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
           </div>
         </div>
         <div class="bg-white w-full py-5 absolute -bottom-20 left-0 rounded-lg">
