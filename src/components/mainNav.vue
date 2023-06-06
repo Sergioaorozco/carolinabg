@@ -2,7 +2,19 @@
 export default {
   data() {
     return {
-      showMenu:false
+      showMenu:false,
+      lang: 'ES'
+    }
+  },
+  methods:{
+    toggleLang(){
+      if (this.$i18n.locale === 'es') {
+        this.lang ='EN'
+        this.$i18n.locale = 'en'
+      } else {
+        this.lang ='ES'
+        this.$i18n.locale = 'es'
+      }
     }
   }
 }
@@ -14,6 +26,7 @@ export default {
         <img src="/icons/CaroWeb.svg" width="120" height="57.92" alt="logo menu caro">
       </figure>
       <div class="flex gap-4 items-center">
+        <button @click="toggleLang" class="hover:bg-[var(--baseColor)] rounded-lg py-1 px-3 transition-all duration-200"> <em >{{lang}}</em> </button>
         <a @click="showMenu = true" class="hover:bg-[var(--baseColor)] rounded-full py-2 px-2 transition-all duration-200">
           <img src="/icons/menu.svg" width="30" height="30" alt="icono de menu">
         </a>
@@ -27,11 +40,11 @@ export default {
               <img src="/icons/close.svg" width="30" height="30" alt="icono de menu">
             </a>
           <div class="flex flex-col lg:flex-row w-screen lg:justify-between h-full">
-            <a target="_blank" href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/7551/Los%20objetos%20condicionantes%20el%20uso%20re-adaptativo.pdf?sequence=1&isAllowed=y" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Publicaciones</a>
+            <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t('contact')}}</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Contacto</a>
+            <a target="_blank" href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t('projects')}}</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a target="_blank" href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">Proyectos</a>
+            <a target="_blank" href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/7551/Los%20objetos%20condicionantes%20el%20uso%20re-adaptativo.pdf?sequence=1&isAllowed=y" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t(   'publications')}}</a>
           </div>
         </div>
         <div class="bg-white w-full py-5 absolute -bottom-20 left-0 rounded-lg">

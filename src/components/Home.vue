@@ -5,10 +5,10 @@
       <main class="bg-transparent mt-5 lg:mt-8 mb-16">
         <div class="wrapper gap-3 flex justify-between flex-col-reverse lg:flex-row items-center">
           <article class="flex flex-col md:w-1/2 write">
-            <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">Hola,</p>
-            <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Soy Carolina Buitrago González, diseñadora de interiores y Gerente de Proyectos.</h1>
-            <h2 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">Actual: <span class="font-semibold"><a href="https://wynwood-house.com/" class="underline" target="_blank" rel="noopener noreferrer">Wynwood House</a></span></h2>
-            <a href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/25 mt-5 border border-[var(--baseDarkColor)] lg:w-fit w-full rounded-xl px-4 py-2 font-sans font-light text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-all duration-300 descarga">Descargar Curriculum</a>
+            <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">{{ $t('greeting') }}</p>
+            <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">{{ $t('summary') }}</h1>
+            <h2 class="text-2xl lg:text-2xl text-[var(--DarkText)] mt-6 font-sans font-light">{{$t('current')}} <span class="font-semibold"><a href="https://wynwood-house.com/" class="px-4 py-1 bg-rose-400/10 hover:bg-[var(--baseDarkColor)] rounded-lg w-fit transition-colors duration-300" target="_blank" rel="noopener noreferrer">Wynwood House</a></span></h2>
+            <a href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" target="_blank" class="flex items-center gap-x-2 bg-white/75 mt-5 border border-[var(--baseDarkColor)] lg:w-fit w-full rounded-xl px-4 py-2 font-sans text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-colors duration-300 descarga font-normal">{{ $t('download')}}</a>
           </article>
           <figure class="relative" v-motion-slide-bottom>
             <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
@@ -21,7 +21,7 @@
       </main>
       <!-- Herramientas -->
       <section class="wrapper w-fit mb-5">
-        <h2 class="mb-3 text-[var(--DarkText)] write text-3xl">Herramientas</h2>
+        <h2 class="mb-3 text-[var(--DarkText)] write text-3xl">{{ $t('tools') }}</h2>
         <ul class="grid grid-cols-2 lg:flex lg:flex-row items-center justify-evenly lg:h-32 lg:border lg:border-[var(--baseDarkColor)] bg-white/25 backdrop-blur-xl rounded-xl toolSection">
           <li v-tooltip.top="'Notion'"  class="py-5 rounded-tl-lg lg:py-0 border border-[var(--baseDarkColor)] lg:border-none hover:bg-white/40 transition-colors duration-200"><img class="w-16" height="65" width="65" src="/icons/Notion-logo.svg" alt="logo herramientas Notion"></li>
           <em class="hidden lg:block divider lg:w-1 lg:h-full w-full h-0.5"></em>
@@ -35,11 +35,11 @@
 
       <!-- Sobre Mi -->
       <section class="wrapper w-fit pt-10 text-[var(--DarkText)] ">
-        <h2 class="mb-3 write text-3xl">Sobre Mí</h2>
+        <h2 class="mb-3 write text-3xl">{{ $t('aboutMe') }}</h2>
         <article class="text-lg">
-          <p>Profesional en diseño industrial con experiencia en diseño de espacios comerciales, domésticos y hotelería.</p>
-          <p>Experiencia como gerente de proyectos de arquitectura interior.</p>
-          <p>Me interesa crear experiencias con una mirada sensible enfocada en las personas y su entorno.</p>
+          <p>{{$t('aboutP1')}}</p>
+          <p>{{$t('aboutP2')}}</p>
+          <p>{{$t('aboutP3')}}</p>
         </article>
       </section>
 
