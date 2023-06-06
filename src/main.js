@@ -33,6 +33,7 @@ const i18n = createI18n({
       publications: 'Publicaciones',
       contact: 'Contacto',
       projects: 'Proyectos',
+      portfolio: 'https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing',
     },
     en: {
       greeting: 'Hi!',
@@ -47,6 +48,7 @@ const i18n = createI18n({
       publications: 'Publications',
       contact: 'Contact',
       projects: 'Projects',
+      portfolio: 'https://drive.google.com/file/d/1lS0Y47ZS9TCRDXkIMqfP4iCMjWgh3Hpu/view?usp=sharing',
     },
   }
 });
