@@ -7,11 +7,11 @@
           <article class="flex flex-col md:w-1/2 write">
             <p class="text-3xl lg:text-4xl text-[var(--DarkText)] mt-2">{{ $t('greeting') }}</p>
             <h1 class="text-3xl lg:text-3xl text-[var(--DarkText)] mt-2 font-sans font-light">{{ $t('summary') }}</h1>
-            <h2 class="text-2xl lg:text-2xl text-[var(--DarkText)] mt-6 font-sans font-light block">{{$t('current')}} <span class="font-semibold"><a href="https://wynwood-house.com/" class="block lg:inline-block mt-3 mb-4 lg:mt-0 px-4 py-1 bg-rose-400/10 hover:bg-[var(--baseDarkColor)] rounded-lg w-fit transition-colors duration-300" target="_blank" rel="noopener noreferrer">Wynwood House</a></span></h2>
+            <h2 class="text-2xl lg:text-2xl text-[var(--DarkText)] mt-6 font-sans font-light block">{{$t('current')}} <span class="font-semibold"><a href="https://wynwood-house.com/" class="block lg:inline-block mt-3 mb-4 lg:mt-0 px-4 py-1 bg-white/40 hover:bg-[var(--baseDarkColor)] rounded-lg w-fit transition-colors duration-300" target="_blank" rel="noopener noreferrer">Wynwood House</a></span></h2>
             <a :href="$t('portfolio')" target="_blank" class="flex items-center gap-x-2 bg-white/75 mt-5 border border-[var(--baseDarkColor)] lg:w-fit w-full rounded-xl px-4 py-2 font-sans text-[var(--DarkText)] text-2xl hover:bg-[var(--baseDarkColor)] transition-colors duration-300 descarga font-normal">{{ $t('download')}}</a>
           </article>
           <figure class="relative" v-motion-slide-bottom>
-            <img width="300" height="300" class="lg:w-96" src="/background/perfilCaro.webp" alt="foto principal del perfil de caro">
+            <img width="300" height="300" class="lg:w-96" src="/background/fotoCaro2.png" alt="foto principal del perfil de caro">
             <div class="flex place-items-center justify-center absolute right-0 bottom-5">
               <img class="role" width="100" height="100" src="/icons/spinText.svg" alt="Roles de Carolina Buitrago">
               <img width="80" height="80" class="absolute p-2" src="/icons/isotipo.svg" alt="Isotipo de Carolina Buitrago">

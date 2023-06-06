@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --baseColor: rgba(243, 214, 209, 0.95);
-  --baseDarkColor: rgba(240, 151, 135, 0.85);
-  --DarkSoftText: rgb(151, 95, 85);
-  --DarkText: rgb(94, 72, 69);
+  --baseColor: hsla(282, 19%, 90%, 0.80);
+  --baseDarkColor: hsla(282, 19%, 90%, 1.00);
+  --DarkSoftText: hsla(282, 29%,50%, 1.00);
+  --DarkText: hsla(282, 19%,10%, 1.00);
 }
 
 .wrapper {
@@ -21,7 +21,8 @@
   width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 }
 body {
-   background-image: url('/background/mainbackground.webp');
+   background-image: url('/background/grayBg.svg');
+   
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
