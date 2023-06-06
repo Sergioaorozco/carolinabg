@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --baseColor: hsla(282, 19%, 90%, 0.80);
-  --baseDarkColor: hsla(282, 19%, 90%, 1.00);
+  --baseColor: hsla(282, 19%, 90%, 1.00);
+  --baseDarkColor: hsla(282, 25%, 70%, 1.00);
   --DarkSoftText: hsla(282, 29%,50%, 1.00);
   --DarkText: hsla(282, 19%,10%, 1.00);
 }
