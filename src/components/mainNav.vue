@@ -42,7 +42,7 @@ export default {
           <div class="flex flex-col lg:flex-row w-screen lg:justify-between h-full">
             <a target="_blank" href="https://www.linkedin.com/in/carolinabg/" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t('contact')}}</a>
             <div class="lg:border-r border-b border-slate-100"></div>
-            <a target="_blank" href="https://drive.google.com/file/d/103WUKBrwMDqoH-qhPRj-ZDpdxptlVwTJ/view?usp=sharing" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t('projects')}}</a>
+            <a target="_blank" :href="$t('portfolio')" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t('projects')}}</a>
             <div class="lg:border-r border-b border-slate-100"></div>
             <a target="_blank" href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/7551/Los%20objetos%20condicionantes%20el%20uso%20re-adaptativo.pdf?sequence=1&isAllowed=y" class="text-4xl font-semibold p-5 w-full h-full text-center flex justify-center items-center py-12 lg:py-40 hover:text-[var(--DarkSoftText)]">{{$t(   'publications')}}</a>
           </div>
