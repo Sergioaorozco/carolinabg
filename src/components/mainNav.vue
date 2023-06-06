@@ -25,7 +25,7 @@ export default {
       <figure>
         <img src="/icons/CaroWeb.svg" width="120" height="57.92" alt="logo menu caro">
       </figure>
-      <div class="flex gap-4 items-center">
+      <div class="flex gap-3 items-center">
         <button @click="toggleLang" class="hover:bg-[var(--baseColor)] rounded-lg py-1 px-3 transition-all duration-200"> <em >{{lang}}</em> </button>
         <a @click="showMenu = true" class="hover:bg-[var(--baseColor)] rounded-full py-2 px-2 transition-all duration-200">
           <img src="/icons/menu.svg" width="30" height="30" alt="icono de menu">
